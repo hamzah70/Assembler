@@ -1,0 +1,17 @@
+    CLA
+    INP A
+    INP B
+    LAC A
+    SUB B
+START 100
+    BRN L1
+    DSP A
+    CLA
+    BRZ L2
+L1: DSP B
+    DSP '=123'212
+    CLA
+    BRZ L2
+L2: STP
+A: DW 10
+END
